@@ -67,7 +67,7 @@ src/
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/LaraSharmon/Projeto-API-Redmi.git
+$ git clone https://github.com/viniocean/Projeto-Individual-5
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd clínicaApi
@@ -88,42 +88,42 @@ $ <http://localhost:6020>
 
 | Método | Rota | Descrição |
 | ------ | ----- | ----------- |
-| **`GET`** | **/fisioterapeutas** | Retorna todos os fisioterapeutas. |
-|  **`GET`** | **/fisioterapeuta/id** | Retorna um fisioterapeuta. |
-|  **`POST`** | **/fisioterapeuta** | Cria um novo fisioterapeuta.  |
-|  **`PUT`** | **/fisioterapeuta/id** | Altera os dados do fisioterapeuta.
-|  **`DELETE`** | **/fisioterapeuta/id** | Remove o fisioterapeuta.
+| **`GET`** | **/cinemas** | Retorna todos os cinemas. |
+|  **`GET`** | **/cinemas/id** | Retorna um cinema. |
+|  **`POST`** | **/cinemas** | Cria um novo cinema.  |
+|  **`PUT`** | **/cinemas/id** | Altera os dados do cinema.
+|  **`DELETE`** | **/cinemas/id** | Remove o cinema.
   
-### [ 2 ] <em>Pacientes</em>
+### [ 2 ] <em>Filmes</em>
 
 | Método | Rota | Descrição |
 | ------ | ----- | ----------- |
-|  **`GET`** | **/pacientes** | Retorna todos os Pacientes. |
-|  **`GET`** | **/paciente/id** | Retorna um Paciente. |
-|  **`POST`** | **/paciente** | Cria um novo Paciente.  |
-|  **`PUT`** | **/paciente/id** | Altera os dados do Paciente.
-|  **`DELETE`** | **/paciente/id** | Remove o Paciente.
+|  **`GET`** | **/filmes** | Retorna todos os filmes. |
+|  **`GET`** | **/filmes/id** | Retorna um filme. |
+|  **`POST`** | **/filmes** | Cria um novo filme.  |
+|  **`PUT`** | **/filmes/id** | Altera os dados do filme.
+|  **`DELETE`** | **/filmes/id** | Remove o filme.
   
   
-### [ 2 ] <em>Agendamento</em>
+### [ 2 ] <em>Sessões</em>
 
 | Método | Rota | Descrição |
 | ------ | ----- | ----------- |
-|  **`GET`** | **/agendamentos** | Retorna todos os agendamentos. |
-|  **`GET`** | **/agendamento/id** | Retorna um agendamento. |
-|  **`POST`** | **/agendamento** | Cria um novo agendamento.  |
-|  **`PUT`** | **/agendamento/id** | Altera os dados do agendamento.
-|  **`DELETE`** | **/agendamento/id** | Remove o agendamento.
+|  **`GET`** | **/sessoes** | Retorna todas as sessões. |
+|  **`GET`** | **/sessoes/id** | Retorna uma sessão. |
+|  **`POST`** | **/sessoes** | Cria uma nova sessão.  |
+|  **`PUT`** | **/sessoes/id** | Altera os dados da sessão.
+|  **`DELETE`** | **/sessoes/id** | Remove a sessão.
 
 
-### [ 2 ] <em>Equipamentos</em>
+### [ 2 ] <em>Clientes</em>
 
 | Método | Rota | Descrição |
 | ------ | ----- | ----------- |
-|  **`GET`** | **/equipamentos** | Retorna todos os equipamentos. |
-|  **`GET`** | **/equipamento/id** |  Retorna um equipamento. |
-|  **`POST`** | **/equipamento** | Cria um novo mequipamento.  |
-|  **`PUT`** | **/equipamento/id** | Altera os dados do equipamento.
-|  **`DELETE`** | **/equipamento/id** | Remove o equipamento.
+|  **`GET`** | **/clientes** | Retorna todos os clientes. |
+|  **`GET`** | **/clientes/id** |  Retorna um cliente. |
+|  **`POST`** | **/clientes** | Cria um novo cliente.  |
+|  **`PUT`** | **/clientes/id** | Altera os dados do cliente.
+|  **`DELETE`** | **/cliente/id** | Remove o cliente.
   
 
