@@ -70,7 +70,7 @@ src/
 $ git clone https://github.com/viniocean/Projeto-Individual-5
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd clínicaApi
+$ cd cinemaApi
 
 # Instale as dependências
 $ npm install
